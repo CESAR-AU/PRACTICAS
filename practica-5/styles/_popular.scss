@@ -150,3 +150,37 @@ i:hover{
     font-size: 20px;
     
 }
+
+
+@media(max-width:600px){
+    .popular{
+        .article-pricipal{
+            display: block;
+        }
+        .article{
+            width: 80%;
+            section {
+                padding-right: 0 !important;
+              }
+        }
+    }
+}
+
+@media(max-width:480px){
+    .popular{
+        .article-pricipal{
+            display: block;
+            flex-wrap: wrap;
+            flex-direction: column;
+            section{
+                width: 100%;                
+            }
+        }
+        .article{
+            width: 100%;
+            section {
+                padding-right: 0 !important;
+              }
+        }
+    }
+}

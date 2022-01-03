@@ -57,3 +57,9 @@ img{
       max-width: 960px;
     //   background-color: rgba(208, 208, 208, 0.549);
   }
+
+  @media(max-width:965px){
+    .container{
+      max-width: 90%;
+    }
+}

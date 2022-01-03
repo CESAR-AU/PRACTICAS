@@ -43,3 +43,17 @@
     }
   }
 }
+
+@media (max-width: 600px){
+  .container {
+    width: 90%;
+
+  }
+}
+
+@media (max-width: 480px){
+
+  a {
+    padding: 0 5px;
+  }
+}
